@@ -366,10 +366,9 @@ public class Main {
             System.out.println("Number of a's: " + aCounter);
         } catch (Exception e) {
             System.out.println(e);
-        }finally {
-            input.nextLine();
         }
 
+        input.close();
     }
 
     public static double circlePerimeter(double radius,double pi)throws InputMismatchException,ArithmeticException{
